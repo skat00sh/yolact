@@ -171,6 +171,18 @@ pascal_sbd_dataset = dataset_base.copy({
 
     'class_names': PASCAL_CLASSES,
 })
+warp_dataset = dataset_base.copy({
+    'name': 'WARP Dataset',
+
+    'train_images' : None,
+    'train_info': None,
+
+    'valid_images': '/datasets/test-dataset/images/dataset1/',
+    'valid_info': '/datasets/test-dataset/images/datasets_test-dataset-3.json',
+
+    'has_gt':True,
+    'class_names': COCO_LABEL_MAP
+})
 
 
 

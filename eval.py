@@ -1,3 +1,7 @@
+import sys
+sys.path.append('/home/ros/src/object_detection/object_detection/yolact')
+# import pudb
+# pu.db
 from data import COCODetection, get_label_map, MEANS, COLORS
 from yolact import Yolact
 from utils.augmentations import BaseTransform, FastBaseTransform, Resize
