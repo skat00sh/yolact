@@ -174,8 +174,8 @@ pascal_sbd_dataset = dataset_base.copy({
 warp_dataset = dataset_base.copy({
     'name': 'WARP Dataset',
 
-    'train_images' : None,
-    'train_info': None,
+    'train_images' : '/datasets/new_coco_from_cityscapes/train/',
+    'train_info': '/datasets/new_coco_from_cityscapes/annotations/train_corrected.json',
 
     'valid_images': '/datasets/test-dataset/images/dataset1/',
     'valid_info': '/datasets/test-dataset/images/datasets_test-dataset-3.json',
